@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.servey{
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.servey .ai{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    margin: 50px 0 50px 0;
+}
+.servey .ai ::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   height: 3px;
+   width: 100%;
+   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.input{
+    display: block;
+    margin: 10px;
+}
+ form .Questions{
+    margin: 60px 0 30px 0;
+}
+.button1{
+    height: 80px;
+    display: inline;
+}
+.button2{
+    height: 80px;
+    display: inline;
+}
+.button1 input{
+    margin: 50px 100px 50px 30px;
+    height: 100%;
+    width: 30%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.button2 input{
+    margin: 50px 30px 50px 180px;
+    height: 100%;
+    width: 30%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.button1 input:hover{
+    transform: scale(0.95);
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+.button2 input:hover{
+    transform: scale(0.95);
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
